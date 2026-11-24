@@ -32,6 +32,9 @@ E2-G2/
 ├── .gitignore
 ├── vite.config.js
 ├── README.md
+└── images/
+    ├── favicon.png
+    ├── logo.png
 └── src/
     ├── main.jsx
     ├── App.jsx

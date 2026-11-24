@@ -4,7 +4,13 @@ function Header() {
   return (
     <header className="navbar navbar-dark bg-dark">
       <nav className="container">
-        <h1 className="text-white">WebCraft Solutions</h1>
+        <div className="logo">
+          <img
+            src="/images/logo.png"
+            alt="Logo WebCraft Solutions"
+          />
+          <h1 className="text-white">WebCraft Solutions</h1>
+        </div>
 
         <ul className="nav">
           <li><NavLink to="/" className="nav-link">Accueil</NavLink></li>
