@@ -1,0 +1,36 @@
+.hero {
+  padding: 50px;
+  margin: 20px 0;
+  text-align: center;
+  animation: apparition 1s;
+}
+
+@keyframes apparition {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+.carte-image {
+  height: 180px;
+  object-fit: cover;
+}
+
+.modal-ouverte {
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+}
