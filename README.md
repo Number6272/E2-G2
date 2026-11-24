@@ -86,3 +86,7 @@ SearchBar, FilterBar et Modal sont utilisés dans les deux sections de la page d
 ## Formulaire d'inscription
 
 Les champs utilisent la validation HTML (`required`, `type="email"`, `pattern` pour le téléphone). Au moment de l'envoi, `validerInscription` vérifie aussi l'email et le téléphone. Si tout est bon, un message de confirmation s'affiche.
+
+## IA
+
+le logo est fait avec ia.
